@@ -1,5 +1,5 @@
 import { add } from './string-calculator';
 
-test('should return 3 for the string "1,2"', () => {
-  expect(add('1,2')).toBe(3);
+test('should handle new lines between numbers', () => {
+  expect(add('1\n2,3')).toBe(6);
 });
