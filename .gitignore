@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+
+# Output directory for compiled TypeScript
+/dist/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Jest test runner cache directory
+/.jest/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
